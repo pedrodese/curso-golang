@@ -28,4 +28,10 @@ func main() {
 
 	usuario3 := usuario{nome: "Pedro"}
 	fmt.Println(usuario3)
+
+	var user usuario
+	user.nome = "Pedro"
+	user.idade = 21
+
+	fmt.Println(user)
 }
