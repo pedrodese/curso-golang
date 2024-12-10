@@ -21,6 +21,7 @@ func main() {
 
 	for j := 0; j < 10; j++ {
 		fmt.Println("Incrementando J ", j)
+		time.Sleep(time.Second)
 	}
 
 	//forma de iterar algo, parecido com o foreach do Java
@@ -32,5 +33,14 @@ func main() {
 	//posso tambem iterar uma string percorrendo ela e retornando os indices e os valores
 	for indice, letra := range "PALAVRA" {
 		fmt.Println(indice, string(letra))
+	}
+
+	usuario := map[string]string{
+		"nome":      "Pedro Henrique",
+		"profissao": "Desenvolvedor Back-End",
+	}
+
+	for chave, valor := range usuario {
+		fmt.Println(chave, valor)
 	}
 }
