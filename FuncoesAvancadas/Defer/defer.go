@@ -10,7 +10,7 @@ func main() {
 //antes de qualquer return na função abaixo isso está exemplificado, onde ele ira printar a mensagem "Média calculado. Resultado será retornado!" em qualquer return que ele der
 //mesmo sendo true ou false
 func alunoEstaAprovado(n1, n2 float32) bool {
-	defer fmt.Println("Média calculado. Resultado será retornado!")
+	defer fmt.Println("Média calculada. Resultado será retornado!")
 	fmt.Println("Entrando na função que verifica se o aluno está aprovado ")
 	media := (n1 + n2) / 2
 
