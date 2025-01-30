@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"time"
 )
 
 // exemplo de função recursiva em GO
@@ -19,6 +18,5 @@ func main() {
 	posicao := uint(10)
 	for i := uint(0); i <= posicao; i++ {
 		fmt.Println(retornaPosicaoNumeroFibonnaci(i))
-		time.Sleep(time.Second)
 	}
 }
